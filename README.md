@@ -36,6 +36,8 @@ Update -- 2021.05.17
 ## kaggle -- Playground Prediction Competition
 The original competition is to challenge you to build a model that predicts the total ride duration of taxi trips in New York City. But I will only upload the code that I am responsible for, mainly the part of pre-processing and feature engineering of the data, as well as a simple linear model to check the results.
 
+Kaggle: [<https://www.kaggle.com/c/nyc-taxi-trip-duration/overview>](https://www.kaggle.com/c/nyc-taxi-trip-duration/overview)
+
 
 **Unlike my use of the R language before, I have now started to chose to use python for the new processing of the data.**
 
