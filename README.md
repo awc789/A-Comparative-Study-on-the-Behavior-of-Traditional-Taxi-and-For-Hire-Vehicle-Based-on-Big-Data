@@ -1,4 +1,4 @@
-# A-Comparative-Study-on-the-Behavior-of-Traditional-Taxi-and-Online-Ride-hailing-Based-on-Big-Data
+# A-Comparative-Study-on-the-Behavior-of-Traditional-Taxi-and-For-Hire-Vehicle-Based-on-Big-Data
 Southwest Jiaotong University -- University SRTP (Student Research Training Program)
 
 Tutor: Prof Hongtai Yang
@@ -12,34 +12,34 @@ Get the data
 
 NYC Taxi and Limousine Commission: [<https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page>](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
-(NYC Citi Bike data can be found in another website which can also using the code in this project to do some analysis: [<https://www.citibikenyc.com/system-data>](https://www.citibikenyc.com/system-data))
+(NYC Citi Bike data can be found on another website which can also be using the code in this project to do some analysis: [<https://www.citibikenyc.com/system-data>](https://www.citibikenyc.com/system-data))
 
 
-**1. You are supposed to using the code from Get_Data file to select the useful data that will be used in this project**
+**1. You are supposed to use the code from the Get_Data file to select the useful data that will be used in this project**
 - Srtp_Yellow.R
 - Srtp_Green.R
 - Srtp_FHV.R
 
-**2. Using the code in Analysis to give further level of analysis**
+**2. Using the code in Analysis to give a further level of analysis**
 - Yellow_Analysis.R
 - Green_Analysis.R
 - FHV_Analysis.R
 
-**3. Finally, you can use another two R file to draw pictures and get most popular pick-up and drop-off zone**
+**3. Finally, you can use another two R files to draw pictures and get the most popular pick-up and drop-off zone**
 - Pic_plot.R
 - Zone_search.R
 
 Update -- 2021.05.17
 ===
-> During the Master's study in the University of Southampton, there is a module called **COMP6237 Data Mining**, in this module I have a coursework which I have selected the same dataset to do something different.
+> During the Master's study at the University of Southampton, there is a module called **COMP6237 Data Mining**, in this module I have a coursework in which I have selected the same dataset to do something different.
 
-## kaggle -- Playground Prediction Competition
+## Kaggle -- Playground Prediction Competition
 The original competition is to challenge you to build a model that predicts the total ride duration of taxi trips in New York City. But I will only upload the code that I am responsible for, mainly the part of pre-processing and feature engineering of the data, as well as a simple linear model to check the results.
 
 Kaggle: [<https://www.kaggle.com/c/nyc-taxi-trip-duration/overview>](https://www.kaggle.com/c/nyc-taxi-trip-duration/overview)
 
 
-**Unlike my use of the R language before, I have now started to chose to use python for the new processing of the data.**
+**Unlike my use of the R language before, I have now started to choose to use python for the new processing of the data.**
 
 ```bash
 Features of the data obtained by the code：
