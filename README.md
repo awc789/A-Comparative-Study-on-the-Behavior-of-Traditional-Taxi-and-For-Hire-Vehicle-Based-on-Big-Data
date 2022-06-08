@@ -45,23 +45,23 @@ Kaggle: [<https://www.kaggle.com/c/nyc-taxi-trip-duration/overview>](https://www
 Features of the data obtained by the code：
  #   Column              Non-Null Count    Dtype  
 ---  ------              --------------    -----  
- 0   passenger_count     1444061 non-null  int64
- 1   distance            1444061 non-null  float64
- 2   manhattan_distance  1444061 non-null  float64
- 3   haversine_distance  1444061 non-null  float64
- 4   miles_distance      1444061 non-null  float64
- 5   bearing             1444061 non-null  float64
- 6   month               1444061 non-null  object
- 7   day                 1444061 non-null  object
- 8   weekday             1444061 non-null  int64
- 9   pickup_time         1444061 non-null  float64
- 10  pickup_pca0         1444061 non-null  float64
- 11  pickup_pca1         1444061 non-null  float64
- 12  dropoff_pca0        1444061 non-null  float64 
- 13  dropoff_pca1        1444061 non-null  float64
- 14  pickup_borough      1444061 non-null  int64
- 15  dropoff_borough     1444061 non-null  int64
- 16  borough_speed       1444061 non-null  float64
+ 0   passenger_count     1444061 non-null  int64       乘客数量  
+ 1   distance            1444061 non-null  float64     欧式距离
+ 2   manhattan_distance  1444061 non-null  float64     曼哈顿距离
+ 3   haversine_distance  1444061 non-null  float64     Haversine距离
+ 4   miles_distance      1444061 non-null  float64     考虑球面弧度后的距离
+ 5   bearing             1444061 non-null  float64     航向角
+ 6   month               1444061 non-null  object      月份
+ 7   day                 1444061 non-null  object      日期 
+ 8   weekday             1444061 non-null  int64       星期（星期一=0  ...  星期日=6）
+ 9   pickup_time         1444061 non-null  float64     上车时间
+ 10  pickup_pca0         1444061 non-null  float64     经过PCA 2D-2D之后的上车纬度
+ 11  pickup_pca1         1444061 non-null  float64     经过PCA 2D-2D之后的上车经度
+ 12  dropoff_pca0        1444061 non-null  float64     经过PCA 2D-2D之后的下车纬度
+ 13  dropoff_pca1        1444061 non-null  float64     经过PCA 2D-2D之后的下车经度
+ 14  pickup_borough      1444061 non-null  int64       上车区域  
+ 15  dropoff_borough     1444061 non-null  int64       下车区域  
+ 16  borough_speed       1444061 non-null  float64     区域速度
 dtypes: float64(11), int64(4), object(2)
 ```
 
